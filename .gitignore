@@ -1,5 +1,46 @@
-.pylintrc
-.venv
-/venv
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Test, coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDEs/editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project local files (optional)
+# .pylintrc  # uncomment if you do not want to track this file
+
 
 /Resources
